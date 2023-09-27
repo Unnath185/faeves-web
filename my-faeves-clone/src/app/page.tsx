@@ -1,6 +1,6 @@
-
+"use client"
 import React from 'react'
-import Header from '@/Components/Header/Header'
+import Header from '@/Header/Header'
 
 export default function Home () {
   return (
