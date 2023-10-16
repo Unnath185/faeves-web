@@ -1,12 +1,15 @@
-"use client"
+
 import React from 'react'
 import Header from '@/Header/Header'
-import "@/styles/main.css"
+import MiddleSection from '@/MiddleSection/MiddleSection'
 
 export default function Home () {
   return (
-    <main>
+    <>
+     <div className='flex flex-col'>
       <Header/>
-    </main>
+      <MiddleSection/>
+     </div>
+    </>
   )
 }

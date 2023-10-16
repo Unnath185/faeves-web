@@ -8,8 +8,8 @@ import HeaderRight from './HeaderRight/HeaderRight';
 const HeaderComponent = () => {
   return (
     <>
-      <header className="fixed w-screen bg-white my-[2rem] mx-[8rem]">
-      <div className="container  flex justify-between items-center">
+      <header className=" w-screen bg-white my-[1rem] mx-[50px]">
+      <div className="container flex flex-row justify-between items-center">
         <HeaderLeft/>
         <HeaderMiddle/>
         <HeaderRight/>

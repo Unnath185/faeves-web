@@ -9,14 +9,14 @@ function HamburgerMenu() {
   };
 
   return (
-    <div className="relative">
+    <div className="position-relative mi-6">
       <button
-        className="text-gray-500 hover:text-gray-900 focus:outline-none"
+        className="text-gray-500 ml-8 hover:text-gray-900 focus:outline-none"
         onClick={toggleMenu}
       >
         <svg
           xmlns="burgerdown.svg"
-          className="h-6 w-6"
+          className="h-10 w-10"
           fill="none"
           viewBox="0 0 24 24"
           stroke="currentColor"
@@ -44,7 +44,7 @@ function HamburgerMenu() {
           <div className=" p-6 h-2/3 flex flex-row justify-evenly border-t border-black  bg-white ">
 
             <div className="mb-4 flex-column">
-              <h2 className="text-2xl pb-1.5 font-bold  mb-2">ABOUT FAEVES</h2>
+              <h2 className="text-1.5xl pb-1.5 font-bold  mb-2">ABOUT FAEVES</h2>
               <p className="text-2sm pb-3">Newsroom</p>
               <p className="text-2sm pb-3">Careers</p>
               <p className="text-2sm pb-3">Affiliates</p>
@@ -53,7 +53,7 @@ function HamburgerMenu() {
             </div>
  
             <div className="mb-4 flex-column">
-              <h2 className="text-2xl font-bold pb-1.5 mb-2">AMBASSADORS</h2> 
+              <h2 className="text-1.5xl font-bold pb-1.5 mb-2">AMBASSADORS</h2> 
               <p className="text-2sm pb-3">The Beauty Entrepreneurs</p>
               <p className="text-2sm pb-3">The Influencers</p>
               <p className="text-2sm pb-3">The Artists</p>
@@ -61,7 +61,7 @@ function HamburgerMenu() {
             </div>
 
             <div className="mb-4 flex-column">
-              <h2 className="text-2xl font-bold pb-1.5 mb-2">DAILY FAEVES</h2>
+              <h2 className="text-1.5xl font-bold pb-1.5 mb-2">DAILY FAEVES</h2>
               <p className="text-2sm pb-3">ARTICLES</p>
               <p className="text-2sm pb-3">REVIEWS</p>
               <p className="text-2sm pb-3">The Artists</p>
@@ -69,7 +69,7 @@ function HamburgerMenu() {
             </div>
 
             <div className="mb-4 flex-column">
-              <h2 className="text-2xl pb-1.5 font-bold mb-2">MY Faeves</h2>
+              <h2 className="text-1.5xl pb-1.5 font-bold mb-2">MY Faeves</h2>
               <p className="text-2sm pb-3">Order Status</p>
               <p className="text-2sm pb-3">Beauty Insider</p>
               <p className="text-2sm pb-3">Community profile</p>
@@ -81,7 +81,7 @@ function HamburgerMenu() {
             </div>
             
             <div className="mb-4 flex-column">
-              <h2 className="text-2xl pb-1.5 font-bold mb-2">HELP</h2>
+              <h2 className="text-1.5xl pb-1.5 font-bold mb-2">HELP</h2>
               <p className="text-2sm pb-3">Customer Service</p>
               <p className="text-2sm pb-3">Returns & Exchanges</p>
               <p className="text-2sm pb-3">Buy Online</p>
@@ -92,7 +92,7 @@ function HamburgerMenu() {
             </div>
             
             <div className="mb-4 flex-column">
-              <h2 className="text-2xl font-bold pb-1.5 mb-2">QUICK LINKS</h2>
+              <h2 className="text-1.5xl font-bold pb-1.5 mb-2">QUICK LINKS</h2>
               <p className="text-2sm pb-3">OFFER ZONE</p>
               <p className="text-2sm pb-3">NEW LAUNCHES</p>
               <p className="text-2sm pb-3">Categories</p>

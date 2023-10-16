@@ -1,9 +1,9 @@
-import React from 'react'
+import React from 'react';
 
 export default function SearchBar() {
     return (
-        <form className="max-w-sm px-4">
-            <div className="relative">
+        <form className="px-4 mr-7">
+            <div className="relative w-3/4">
                 <svg
                     xmlns="http://www.w3.org/2000/svg"
                     className="absolute top-0 bottom-0 w-6 h-6 my-auto text-gray-400 left-3"
@@ -21,7 +21,7 @@ export default function SearchBar() {
                 <input
                     type="text"
                     placeholder="Search by keyword or item"
-                    className="w-full py-3 pl-10 pr-4 text-gray-500 border rounded-md outline-none bg-gray-50 focus:bg-white focus:border-indigo-600"
+                    className="py-2 pl-10 pr-5 text-gray-500 border rounded-md outline-none bg-gray-50 focus:bg-white focus:border-indigo-600 "
                 />
             </div>
         </form>

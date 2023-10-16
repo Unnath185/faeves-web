@@ -14,7 +14,7 @@ export default function Login() {
 
     return (
         <div className="relative flex flex-col justify-center min-h-screen overflow-hidden">
-            <div className="w-full p-6 m-auto bg-white rounded-md shadow-md lg:max-w-xl">
+            <div className="w-full mr-4 m-auto bg-white rounded-md shadow-md lg:max-w-xl">
                 {showLogin && (
                     <div className="absolute top-2 right-2 cursor-pointer" onClick={closeLogin}>
                         <span className="text-gray-600 text-xl"> X </span>
@@ -24,9 +24,9 @@ export default function Login() {
                     <Image
                         src="heart-svgrepo-com.svg"
                         alt="Login Image"
-                        className="mx-auto mb-4 cursor-pointer"
-                        width="30"
-                        height="30"
+                        className="mx-auto cursor-pointer"
+                        width="20"
+                        height="20"
                         onClick={openLogin} // Open login on image click
                     />
                 ) : (
